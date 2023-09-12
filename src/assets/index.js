@@ -21,7 +21,7 @@ import solidity from "./tech/solidity.png";
 import opencv from "./tech/opencv.png";
 import ethereum from "./tech/ethereum.png";
 import aws from "./tech/aws.png";
-import ai from "./ai.png";
+import ai from "./aiimage.png";
 import cloud from "./tech/cloud.png";
 import blockchain from "./tech/blockchain.png";
 import pytorch from "./tech/pytorch.png";
