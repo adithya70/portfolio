@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install --legacy-peer-deps
 
       - name: Install react-tilt with legacy peer dependencies
         run: npm install --save --legacy-peer-deps react-tilt
