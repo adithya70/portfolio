@@ -20,8 +20,11 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Install react-tilt with legacy peer dependencies
+        run: npm install --save --legacy-peer-deps react-tilt
+
       - name: Build project
-        run: npm run build
+        run: npm run build 
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
